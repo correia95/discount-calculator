@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#16a34a" />
+
+    <title>Discount Calculator — sale price and how much you save</title>
+    <meta
+      name="description"
+      content="Work out the sale price after a discount — or several — and exactly how much you save. Handles percentage and fixed-amount discounts, stacked or summed, plus optional sales tax. Runs in your browser, no sign-up."
+    />
+    <link rel="canonical" href="https://discount-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Discount Calculator" />
+    <meta property="og:description" content="Sale price after one or more discounts, and how much you actually save. Percentage or fixed amount, stacked or summed, optional tax. Free, no sign-up." />
+    <meta property="og:url" content="https://discount-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://discount-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Discount Calculator" />
+    <meta name="twitter:description" content="Sale price after one or more discounts, and how much you actually save. Percentage or fixed amount, stacked or summed, optional tax." />
+    <meta name="twitter:image" content="https://discount-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Discount Calculator",
+        "url": "https://discount-calculator.correia95.workers.dev/",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Calculate the sale price after percentage and fixed-amount discounts, stacked or summed, with optional sales tax, and see the saving, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I calculate a percentage discount?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Multiply the price by the discount percentage and subtract. 25 percent off 80 is 80 minus 20, which is 60. Enter the price and the discount and the calculator shows the sale price and the saving."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is 20% off then 10% off the same as 30% off?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. The second discount comes off the already-reduced price. On 100 you would pay 100, then 80, then 72 - that is 28 percent off, not 30. Use the 'apply one after another' option to compound discounts."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is tax applied before or after the discount?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "After. Sales tax and VAT are charged on the price you actually pay, so the calculator applies the tax rate to the discounted price."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I combine a percentage discount and a money-off voucher?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Add both. A fixed-amount discount subtracts a flat sum and cannot take the price below zero. Check your retailer's terms for the order, as it can change the total."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This discount calculator needs JavaScript. It works out the sale price after percentage and
+        fixed-amount discounts, stacked or summed, with optional sales tax, and shows the saving.
+      </p>
+    </noscript>
+  </body>
+</html>

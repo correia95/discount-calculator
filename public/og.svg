@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0d100d"/>
+  <g transform="translate(830,180)">
+    <circle cx="40" cy="40" r="30" fill="#4ade80"/>
+    <circle cx="200" cy="200" r="30" fill="#4ade80"/>
+    <path d="M20 220 L220 20" stroke="#4ade80" stroke-width="20" stroke-linecap="round"/>
+  </g>
+  <text x="80" y="180" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="84" font-weight="800" fill="#e8efe8" letter-spacing="-1">Discount Calculator</text>
+  <text x="80" y="235" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="27" fill="#96a598">Sale price · how much you save · stacked discounts</text>
+  <g font-family="ui-monospace, Menlo, Consolas, monospace" font-weight="800">
+    <text x="80" y="360" font-size="60" fill="#4ade80">$56.00</text>
+    <text x="360" y="360" font-size="30" fill="#96a598">was $100 · 30% then 20% · save $44</text>
+  </g>
+  <text x="80" y="480" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#e8efe8">"30% off then extra 20%" is 44% off, not 50%</text>
+  <text x="80" y="524" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="22" fill="#96a598">Percentage or fixed amount · optional tax · free · runs in your browser</text>
+</svg>
